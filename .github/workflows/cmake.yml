@@ -34,8 +34,8 @@ jobs:
         pwd
         ls
         cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
-        ls bin
+        ls
         ls build
         ls bulid
-        
+
 
