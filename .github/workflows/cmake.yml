@@ -34,8 +34,10 @@ jobs:
         pwd
         ls
         cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+        pwd
         ls
-        ls build
+        pwd
         ls bulid
-
+        pwd
+        ls build
 
